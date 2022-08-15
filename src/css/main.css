@@ -1,0 +1,61 @@
+.chatBlock {
+    margin-top: 15px;
+    width: auto;
+    max-width: 50%;
+    font-size: 18px;
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow-wrap: break-word;
+    user-focus: none;
+    user-select: none;
+}
+
+#siteLogo {
+    float: left;
+    color: white;
+    user-select: none;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#span_search_message {
+    left: 30%;
+    font-weight: bold;
+    user-select: none;
+
+}
+
+#chatFrame {
+    width: 55%;
+    height: 600px;
+}
+
+
+@media screen and (max-width: 909px) {
+    #chatBox {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    #chatBox {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 318px) {
+    #nextButton, #messageInput {
+        width: 90%;
+    }
+
+    #chatBox {
+        height: 750px;
+    }
+}
